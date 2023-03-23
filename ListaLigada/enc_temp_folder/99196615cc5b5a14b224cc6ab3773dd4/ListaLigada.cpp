@@ -148,16 +148,7 @@ void inserirElemento()
 
 void excluirElemento()
 {
-	int valor;
-	cout << "DIGITE UM NUMERO";
-	cin >> valor;
 
-	NO* atual = primeiro;
-	NO* anterior = NULL;
-	else { 
-
-		cout << "Elemento não encontrado";
-	}
 }
 
 void buscarElemento()
@@ -179,7 +170,6 @@ void buscarElemento()
 
 // retorna um ponteiro para o elemento buscado
 // ou NULL se o elemento não estiver na lista
-
 NO* posicaoElemento(int numero)
 {
 	NO* aux = primeiro;
